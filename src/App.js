@@ -14,27 +14,9 @@ function App() {
         <Portada />
         <Navbar />
         <Inicio />
-        <ItemListContainer texto='Ramiro' />
-
-
-      <MostrarNombre />
-      <MostrarNombre />
-      <MostrarNombre />
-      <MostrarNombre />
-      <MostrarNombre />
-      <MostrarNombre />
-      <MostrarNombre />
-      <MostrarNombre />
-      <MostrarNombre />
-      <MostrarNombre />
-      <MostrarNombre />
-      <MostrarNombre />
+        <ItemListContainer texto='Esta es la pagina de Inicio! (ItemListContainer)' />
       </Router>
   );
-}
-
-const MostrarNombre = () => {
-  return <h1>Ramiro</h1>
 }
 
 export default App;
