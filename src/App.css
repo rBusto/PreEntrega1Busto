@@ -1,3 +1,26 @@
+body {
+  background-image: url('./assets/bodyBackground/1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: change 40s infinite ease-in-out;
+  color: whitesmoke;
+}
+
+@keyframes change{
+  33%
+  {
+    background-image: url('./assets/bodyBackground/2.jpg');
+  }
+  66%
+  {
+    background-image: url('./assets/bodyBackground/3.jpg');
+  }
+  100%
+  {
+    background-image: url('./assets/bodyBackground/1.png');
+  }
+}
+
 .App {
   text-align: center;
 }
